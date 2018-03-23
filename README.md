@@ -1,17 +1,18 @@
 # STM8A_Training
-Training Project on STM8A-DISCOVERY board.
+This is a training project for new comers for embeded C.
 
-- Step 0. On/Off LEDs => step debug
+Hardware: Board of STM8A-DISCOVERY, with MCU of STM8AF5288
+IDE: IAR for STM8
 
-- Step 1. CPU clock setting (HSE/HSI/LSI/LSE, PLL)
-
-- Step 2.1. Timer setting
-- Step 2.2. Timer interrupt => synchronize between main and ISR.
-
-- Step 3.1. UART Tx settings => oscilloscope, 0x55, 0xAA
-- Step 3.2. Cyclically output => wait? poll? interrupt?
-- Step 3.3. UART Rx basic
-- Step 3.4. Receive a message (several bytes)
-- Step 3.8. printf
-- Step 3.9. shell
-
+Training Steps:
+- Step 1: Create Project
+- Step 2: Pin Output
+- Step 3: CPU clock settings
+- Step 4: Timer settings
+- Step 5: Timer interrupts
+- Step 6: UART Tx settings
+- Step 7: Cyclically output
+- Step 8: printf
+- Step 9: UART Rx settings
+- Step 10: Receive a message (multiple bytes)
+- Step 11: A simple shell
