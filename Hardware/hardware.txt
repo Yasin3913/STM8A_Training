@@ -1,3 +1,0 @@
-Hardware:
-
-Using STM8A-DISCOVERY board.
