@@ -1,7 +1,9 @@
 # STM8A_Training
+
 This is a training project for new comers for embeded C.
 
 Hardware: Board of STM8A-DISCOVERY, with MCU of STM8AF5288
+
 IDE: IAR for STM8
 
 Training Steps:
