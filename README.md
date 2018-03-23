@@ -6,7 +6,7 @@ Hardware: Board of STM8A-DISCOVERY, with MCU of STM8AF5288
 
 IDE: IAR for STM8
 
-Training Steps:
+Training Steps (details see Document/Courses):
 - Step 1: Create Project
 - Step 2: Pin Output
 - Step 3: CPU clock settings
