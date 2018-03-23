@@ -1,0 +1,19 @@
+Create Project
+
+1) open IAR for STM8
+
+2) New Project: Project -> Create New Project -> STM8 Series -> C -> save project (*.ewp)
+3) Try to Make: Project -> Make (F7) -> save workspace (*.eww)
+
+4) Configure Project: Project -> Option
+4.0) !!! NOTE: if not memtioned, please keep as default !!!
+4.1) General Options: Library Configuration -> Library= Normal
+4.2) Debugger -> Setup: Driver -> Simulator, Run to main -> UNchecked
+
+5) Make(F7), Debug(ctl+D)
+5.1) Reset, then step by step(F11), see in disassembly window how it runs from __iar_program_start until return from main.
+
+6) Homework
+6.1) Change library configuration to values other than normal, and try 5) again.
+6.2) Change other configuration in project options, and try 5) again.
+6.3) Try to create empty/c++/assemble project, and try again.
